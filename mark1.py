@@ -7,6 +7,8 @@ import plotly.offline as py
 import plotly.graph_objs as go
 import pandas as pd
 
+#teste1
+
 df_base = pd.read_csv('olist_classified_public_dataset.csv')
 
 df_base=df_base.dropna(thresh=33)
